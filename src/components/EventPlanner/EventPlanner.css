@@ -1,0 +1,63 @@
+.event-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input,
+  select,
+  button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .event-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .event-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .event-item button {
+    background-color: #ffa500;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 6px 12px;
+  }
+  
+  .event-item button:hover {
+    background-color: #cc8400;
+  }
+  

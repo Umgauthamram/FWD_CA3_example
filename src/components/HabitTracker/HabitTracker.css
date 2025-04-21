@@ -1,0 +1,48 @@
+.habit-tracker {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  .habit-tracker h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .habit-tracker form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .habit-tracker input,
+  .habit-tracker select {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .habit-tracker button {
+    padding: 8px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .habit-tracker ul {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .habit-tracker li {
+    background-color: #fefefe;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  

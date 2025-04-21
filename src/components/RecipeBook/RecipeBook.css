@@ -1,0 +1,55 @@
+
+.recipe-book {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  .recipe-book h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .recipe-book form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .recipe-book input,
+  .recipe-book textarea {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .recipe-book textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  .recipe-book button {
+    padding: 8px;
+    font-size: 16px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .recipe-book ul {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .recipe-book li {
+    background-color: #fff9f4;
+    border: 1px solid #ffdbb5;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
